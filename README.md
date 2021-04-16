@@ -1,0 +1,2 @@
+# docs
+Mint Knight Documentation
