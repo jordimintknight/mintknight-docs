@@ -9,14 +9,18 @@ Mint Knight Documentation
 - **Discord** Discussion & Forum
 - **ProtonMail** Email, newseletter & documentation
 - **Notifications?** TBD
+- **Blockchain** OpenZeppelin Defender
 :::
 
 ## Requirements
 
 - Accounts : API keys, limited access to the API. Security
-- Internal : Table of Blockchain platformas available
-- API : Collections of NFTs
-- API : NFTs (mint, transfer)
+- Blockchain : Internal table of Blockchain platformas available
+- Collections of NFTs
+- NFTs (mint, transfer)
+- Marketplace : Strategies to Buy Sell Tokens
+- Tokenization: A token can be tokenized.
+- Queues : System to allow users to queue to buy/participate
 - QUERY (GraphQL?) : Search for NFTs, collections, average price, speed.
 
 ## AWS SETUP
