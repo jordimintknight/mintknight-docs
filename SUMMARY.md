@@ -5,7 +5,7 @@
 * [Why to use Mintknight](Intro/Why_use_mintknight.md)
 * [Quick Start](quick-start.md)
 
-## Reference
+## 🎓 Reference
 
 * [API WEB]
   * [Users](API-web/Users.md)
