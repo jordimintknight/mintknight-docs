@@ -1,4 +1,6 @@
-## Why use Mintknight?
+---
+description: The Docs Assume Some JavaScript and Web3 Programming Knowledge.
+---
 
 ### What is Mintknight?
 
