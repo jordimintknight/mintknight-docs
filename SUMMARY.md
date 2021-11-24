@@ -29,10 +29,29 @@
 * NFTS
   * [Get by Id](API-service/NFTS/GetById.md)
   * [Transfer](API-service/NFTS/Transfer.md)
-  * [Mints](API-service/NFTS/Mints.md)
-  * [Updates metadata](API-service/NFTS/UpdatesMetadata.md)
+  * [Mint](API-service/NFTS/Mints.md)
+  * [Update metadata](API-service/NFTS/UpdatesMetadata.md)
   * [Upload Nft](API-service/NFTS/UploadMetadata.md)
   * [Get One](API-service/NFTS/GetById.md)
+
+* Tokens
+  * [Mint](API-service/Tokens/MintsToken.md)
+  * [Get](API-service/Tokens/GetToken.md)
+  * [Transfer](API-service/Tokens/TransferToken.md)
+
+
+* Wallets
+   * [Get](API-service/Wallets/GetWallets.md)
+   * [Post](API-service/Wallets/PostWallets.md)
+ 
+* Tasks
+
+
+
+
+
+
+
 
 
 
