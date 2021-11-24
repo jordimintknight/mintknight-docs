@@ -1,7 +1,6 @@
 ---
 description: 
 ---
-# Mint Knight API Documentation
 
 
 ## Users and Companies

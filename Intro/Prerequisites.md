@@ -4,8 +4,6 @@ description:
 
 In this guide we do not entend to explain all the conceps related to javascript, Web3 or blockchain from scratch. To try our platform, you don't need to be an expert in all that fields, but basic knowladge in web developer is expected. We are trying our best in documenting our API so evryone can use it. 
 
-
-
 ## Javascript 
 * how to make api calls and fliter data
 * object oriented programing

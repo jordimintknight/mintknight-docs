@@ -4,9 +4,19 @@
 
 * [Why to use Mintknight](Intro/Why_use_mintknight.md)
 * [Prerequisites](Intro/Prerequisites.md)
+* [Walktrough](Intro/walktrough.md)
 * [Quick Start](Intro/quick-start.md)
 
 ## 🎓 Reference
+
+* [Projects]
+  * [POST PROJECTS](API-web/Projects/PostProjects.md)
+  * [GET PROJECTS](API-web/Projects/GetProjects.md)
+  * [GET PROJECT](API-web/Projects/GetProject.md)
+  * [PUT PROJECTS](API-web/Projects/PutProjects.md)
+  * [GET API KEY](API-web/Projects/GetApiKey.md)
+
+
 
 * [API WEB]
   * [Users](API-web/Users.md)
