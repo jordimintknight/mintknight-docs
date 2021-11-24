@@ -26,6 +26,15 @@
   * [Post](API-web/Companies/PostCompanies.md)
   * [Get](API-web/Companies/GetCompanies.md)
 
+* NFTS
+  * [Get by Id](API-service/NFTS/GetById.md)
+  * [Transfer](API-service/NFTS/Transfer.md)
+  * [Mints](API-service/NFTS/Mints.md)
+  * [Updates metadata](API-service/NFTS/UpdatesMetadata.md)
+  * [Upload Nft](API-service/NFTS/UploadMetadata.md)
+  * [Get One](API-service/NFTS/GetById.md)
+
+
 
 * [API WEB]
   * [Users](API-web/Users.md)
