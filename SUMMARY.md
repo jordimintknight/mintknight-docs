@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Why to use Mintknight](Why_use_mintknight.md)
 * [Quick Start](quick-start.md)
 
 ## Reference
