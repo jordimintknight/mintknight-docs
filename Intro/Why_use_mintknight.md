@@ -1,6 +1,6 @@
 ## Why use Mintknight?
 
-### what is Mintknight?
+### What is Mintknight?
 
 Mintknight is a backend solution for blockchain projects. When using the Mintknight platform 
 you can create and manage users, projects, drops, wallets and NFT. Mintknight also, provides an SDK with
