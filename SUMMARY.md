@@ -9,12 +9,12 @@
 
 ## 🎓 Reference
 
-* [Projects]
-  * [POST PROJECTS](API-web/Projects/PostProjects.md)
-  * [GET PROJECTS](API-web/Projects/GetProjects.md)
-  * [GET PROJECT](API-web/Projects/GetProject.md)
-  * [PUT PROJECTS](API-web/Projects/PutProjects.md)
-  * [GET API KEY](API-web/Projects/GetApiKey.md)
+* Projects
+  * [Post](API-web/Projects/PostProjects.md)
+  * [Get all](API-web/Projects/GetProjects.md)
+  * [Get](API-web/Projects/GetProject.md)
+  * [Put](API-web/Projects/PutProjects.md)
+  * [Get api key](API-web/Projects/GetApiKey.md)
 
 
 
