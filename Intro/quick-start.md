@@ -1,77 +1,47 @@
-### How to mint a NFT
-
-```javascript
-
-  // Add a new admin user.
-  const user = await mintknight.addUser(conf.email, conf.password, conf.phone);
-
-  // Login as admin to knitghnight to get the user API KEY.
-  console.log(conf);
-  let result = await mintknight.loginUser(conf.email, conf.password);
-  conf.token = result.token;
-
-  // Add a new company for that user.
-  const company = await mintknight.setCompany(
-    process.env.COMPANY_NAME,
-    process.env.COMPANY_TAXID,
-    process.env.COMPANY_ADDRESS,
-    process.env.COMPANY_COUNTRY,
-  );
-  conf.companyId = company._id;
-
-  // Add a new project.
-  const project = await mintknight.addProject(
-    process.env.PROJECT_NAME,
-    process.env.PROJECT_DESCRIPTION,
-    process.env.PROJECT_NETWORK,
-  );
-  conf.projectId = project._id;
-
-  // Get the API KEY from that project.
-  const apiKey = await mintknight.getApiKey(conf.projectId);
-  conf.apiKey = apiKey.token;
-
-  
-  // Add wallet : minter for the contracts. Th id is internal to your organization.
-  let task = await mintknight.addWallet('id_minter');
-  const minter = { walletId: task.wallet._id, skey: task.skey1 };
-  task = await mintknight.waitTask(task.taskId);
-  minter.address = task.addressTo;
-  fs.writeFileSync( path.join(__dirname, 'json', 'minter.json'), JSON.stringify(minter), 'utf8')
+---
+description: 
+---
+# Mint Knight API Documentation
 
 
- // Add the NFT contract to the project.
-  let task = await mintknight.deployContract(
-    721,
-    process.env.NFT_NAME,
-    process.env.NFT_SYMBOL,
-    process.env.NFT_DESCRIPTION,
-    minter.walletId,
-  );
-  task = await mintknight.waitTask(task.taskId);
-  project.nftAaddress = task.addressTo;
-  fs.writeFileSync( path.join(__dirname, 'json', 'nft.json'), JSON.stringify(project), 'utf8');
+## Users and Companies
+These are the users in your company, responsible to create Projects, collections and NFTs drops.
+A user must have an associated company. Projects belong to the user and the company.
 
-// Upload 1 NFT to wallet 1.
-  task = await mintknight.uploadNFT(
-    project.nftId,
-    'NFT #2',
-    'First NFT to be created on Mintknight',
-    [{
-        trait_type: "XP",
-        value: "100"
-      }, {
-        trait_type: "Color",
-        value: "blue"
-    }],
-    './assets/image.png'
-  );
-  
-  task = await mintknight.waitTask(task.taskId); 
+Roles for users in companies:
 
+- admin (invoice info, projects)
+- manager (campaigns/collections)
+- Minter (can mint NFTs)
 
-// Mint NFT
+WIP: You can also create an API KEY specific for minting collections
 
+## Projects
+The top level in every NFT campaigns.
 
+## Collection
+Projects are organizaed in collections (sublevel 1). Every Collection can have many NFTs drops.
 
-```
+A collection is an ERC721 or an ERC1155 Contract.
+
+Whenever a Drop is created it starts in draft mode. While in draft, it can be edited, as the NFT Contract is not yet in the Blockchain (deployed). But once it is deployed it cannot be changed anymore.
+
+## NFTs and Wallets
+Before minting an NFT you need to create a Wallet for the user reciving the NFT. Every wallet will be encrypted with a password known only to the company.
+
+WIP: Every time a transaction is made, the password will can be changed.
+
+WIP: Recovery Strategy, we are using Shamir Secret Sharing to create three encrypted parts of the Private Key with 2/3 to recover. At Mintknight we keep one, the company will keep the second and the third will be sent to the end user to keep (email, for example). It's up to the company to send the 3rd part to the user.
+
+Once the wallet is created it's time to mint the NFT and send it to the Blockchain.
+
+The static metadata for every NFT is : title, description and image.
+** Remember that once minted this data cannot be Changed **
+
+Every NFT has also associated a dynamic metadata (a link inside the static metadata), that can be changed at anytime by the users in the company with access to that collection.
+
+To transfer an NFT, the password to that wallet must be provided in order to send the transaction to the Blockchain.
+
+## Additional Information
+
+[Ethereum NFTs](/blockchain/ethereum)
