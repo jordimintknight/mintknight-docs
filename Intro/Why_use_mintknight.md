@@ -2,13 +2,13 @@
 description: The Docs Assume Some JavaScript and Web3 Programming Knowledge.
 ---
 
-### What is Mintknight?
+## What is Mintknight?
 
 Mintknight is a backend solution for blockchain projects. When using the Mintknight platform 
 you can create and manage users, projects, drops, wallets and NFT. Mintknight also, provides an SDK with
 access to all our features. 
 
-### Why use Mintknight?
+## Why use Mintknight?
 Mintrknight allows the creation, building and deploying of dAPPS on different chains like Etherum, Polygon, ...and more to come. 
 
 ```javascript
