@@ -16,6 +16,15 @@
   * [Put](API-web/Projects/PutProjects.md)
   * [Get api key](API-web/Projects/GetApiKey.md)
 
+* Contracts
+  * [Post](API-web/Contracts/PostContracts.md)
+  * [Get](API-web/Contracts/GetContract.md)
+  * [Mint](API-web/Contracts/mints.md)
+  * [Put](API-web/Contracts/PutContract.md)
+  
+* Companies
+  * [Post](API-web/Companies/PostCompanies.md)
+  * [Get](API-web/Companies/GetCompanies.md)
 
 
 * [API WEB]

@@ -1,30 +1,5 @@
-## Contracts
-```javascript
-   const contract = {
-      *name, 
-      description,
-      symbol,
-      *erc,
-      decimals,
-      maxSupply,
-      adress,
-      *campaignId,
-      walletId
-    };
 
-    const project = await Mintknight.deployContract(contract);
-```
-
-### Get a contract
-
-
-
-
-
-
-### Mints a new NFT
-
-{% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="contracts/:contractId/mint" summary="Mints a new NFT" %} {% swagger-description %} mints a new NFT. {% endswagger-description %}
+{% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="contracts" summary="Creates a new contract" %} {% swagger-description %} Creates a new Contract. {% endswagger-description %}
 
 {% swagger-parameter in="body" name="name" required="true" type="string" %} The name of the contract {% endswagger-parameter %}
 
@@ -43,6 +18,9 @@
 {% swagger-parameter in="body" name="maxSupply" required="false" type="string" %} Max supply {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="totalSupply" required="false" type="string" %} Total Supply {% endswagger-parameter %}
+
+
+{% swagger-response status="200" description="Contract successfully created" %}
 
 {
     "_id": "XXXXXXXXXXXX...XX",
