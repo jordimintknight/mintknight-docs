@@ -3,6 +3,7 @@
 ## 👋 Introduction
 
 * [Why to use Mintknight](Intro/Why_use_mintknight.md)
+* [Prerequisites](prerequisites.md)
 * [Quick Start](quick-start.md)
 
 ## 🎓 Reference
