@@ -1,5 +1,5 @@
 ---
-description: The Docs Assume Some JavaScript and Web3 Programming Knowledge.
+description: 
 ---
 
 ## What is Mintknight?
