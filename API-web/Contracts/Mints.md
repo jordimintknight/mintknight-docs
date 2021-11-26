@@ -7,7 +7,7 @@
 {% tabs %}
 {% tab title="Node" %}
 ```javascript
-  // 2. Mint 50 tokens to wallet 1.
+  // Mint 50 tokens to wallet 1.
   task = await mintknight.mintToken(
     project.contractId,
     minter.walletId,

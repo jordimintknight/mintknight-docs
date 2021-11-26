@@ -39,7 +39,7 @@ To fetch all the information of a user comapny:
 
 {% tabs %}
 {% tab title="Node" %}
-```
+```javascript
 const MintknightWeb = require('mintknight-web');
 
 const companyInfo =  async MintknightWeb.getCompany(user) 

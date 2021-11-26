@@ -25,3 +25,28 @@
 
 {% endswagger-response %} {% endswagger %}
 
+
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+
+  // Mint a NFT
+  let nft = await mintknight.mintNFT(
+      Contract_id,
+      walletId,
+      skey,
+      to,
+      metadata      
+      );
+   
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}

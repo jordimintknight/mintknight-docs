@@ -15,3 +15,24 @@
 
 {% endswagger-response %} {% endswagger %}
 
+
+
+uploadImage(imageFile)
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+
+  // Upload nft Image
+  let nft = await mintknight.uploadImage(imageFile);
+   
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}

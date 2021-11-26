@@ -19,3 +19,24 @@
 {% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+
+  // GET a contract
+  let contract = await mintknight.getContract(
+      ContractId
+      );
+   
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}

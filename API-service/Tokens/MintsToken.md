@@ -18,3 +18,31 @@
 {% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+  mintToken(contractId, walletId, skey, to, value) 
+  uploadImage(imageFile)
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+
+  // Mint a token
+  let token = await mintknight.mintToken(
+      Contract_id,
+      walletId,
+      skey,
+      to,
+      value      
+      );
+   
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}

@@ -14,3 +14,29 @@
 {% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+
+  // Transfer an NFT
+  let nft = await mintknight.mintNFT(
+      ContractId,
+      walletId,
+      skey,
+      to,
+      metadata      
+      );
+   
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}

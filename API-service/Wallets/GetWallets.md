@@ -32,11 +32,11 @@
 {% tab title="Node" %}
 ```javascript
 
-  // 6. Check Balance for Both wallets
-  let wallet = await mintknight.getWallet(wallet1.walletId);
-  console.log(wallet);
-  wallet = await mintknight.getWallet(wallet2.walletId);
-  console.log(wallet);
+  // Check Balance for Both wallets
+  let wallet1 = await mintknight.getWallet(wallet1Id);
+  console.log(wallet1);
+  wallet2 = await mintknight.getWallet(wallet2Id);
+  console.log(wallet2);
   
 ```
 {% endtab %}
