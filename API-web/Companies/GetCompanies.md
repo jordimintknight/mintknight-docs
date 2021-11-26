@@ -35,3 +35,13 @@ To fetch all the information of a user comapny:
 {% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+
+
+
+```javascript
+const MintknightWeb = require('mintknight-web');
+
+const companyInfo =  async MintknightWeb.getCompany(user) 
+```
