@@ -1,5 +1,33 @@
 
 
+{% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="contracts/:contractId/mint" summary="Creats a new project" %} {% swagger-description %} Mints a new NFT. {% endswagger-description %}
+
+{% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="description" required="true" type="string" %} {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="network" required="true" type="string" %} {% endswagger-parameter %}
+
+
+{% swagger-response status="200" description="Project successfully created" %}
+
+{
+    "_id": "XXXXXXXXXXXX...XX",
+    "name": "the name of a project",
+    "description": "this is the project description",
+    "network": "the network your project is working",
+    "createdAt": "2021-11-05T05:24:15.026Z",
+    "updatedAt": "2021-11-05T05:24:15.026Z",
+    "companyId": "Company_ID",
+    "createdBy": "User_ID",
+    "__v": 0
+}
+{% endswagger-response %}
+
+{% swagger-response status="401" description="Permission denied" %}
+
+{% endswagger-response %} {% endswagger %}
+
 
 
 
