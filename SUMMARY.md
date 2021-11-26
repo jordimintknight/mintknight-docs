@@ -47,3 +47,7 @@
    * [Get](API-service/Tasks/GetTasks.md)  
 
 
+## 🎓 QUICK RECEIPES
+* [How to set up user, company, project...](Receipes/Set_Up.md)
+* [How to create wallets](Receipes/Tasks/Toquens_receipe.md)
+* [How to Mint a NFT](Receipes/NFT_receipe.md)
