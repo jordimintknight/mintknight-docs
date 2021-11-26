@@ -3,14 +3,6 @@
 This action creats a new project for the user. The json key values that are required to create a project are the following:
 
 
-
-{% swagger src="https://sandbox.mintknight.com/api-docs/#/projects/post_projects.swagger.json
-" path="/projects" method="put" %} https://petstore.swagger.io/v2/swagger.json {% endswagger %}
-
-
-https://sandbox.mintknight.com/api-docs/#/projects/post_projects.swagger.json
-
-
 {% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="projects" summary="Creats a new project" %} {% swagger-description %} Creates a new Project. {% endswagger-description %}
 
 {% swagger-parameter in="body" name="name" required="true" type="string" %} The name of the project {% endswagger-parameter %}
