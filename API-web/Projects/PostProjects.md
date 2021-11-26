@@ -34,7 +34,7 @@ This action creats a new project for the user. The json key values that are requ
 
 {% tabs %}
 {% tab title="Node" %}
-```
+```javascript
   const MintknightWeb = require('mintknight-web');
   
   const project = await Mintknight.addProject(
