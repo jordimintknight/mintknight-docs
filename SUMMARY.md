@@ -3,7 +3,6 @@
 ## 👋 Introduction
 
 * [Why to use Mintknight](Intro/Why_use_mintknight.md)
-* [Prerequisites](Intro/Prerequisites.md)
 * [Walkt rough](Intro/walktrough.md)
 * [Quick Start](Intro/quick-start.md)
 
