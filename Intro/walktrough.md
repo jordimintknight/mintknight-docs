@@ -1,7 +1,7 @@
 ---
 description: 
 ---
-
+In this page we will introduce you to the resources our API provides. This brief description will help conceptualize what is each resource, and what role plays in the mintknight platform.  
 
 ## Users and Companies
 These are the users in your company, responsible to create Projects, collections and NFTs drops.
@@ -24,6 +24,9 @@ Projects are organizaed in collections (sublevel 1). Every Collection can have m
 A collection is an ERC721 or an ERC1155 Contract.
 
 Whenever a Drop is created it starts in draft mode. While in draft, it can be edited, as the NFT Contract is not yet in the Blockchain (deployed). But once it is deployed it cannot be changed anymore.
+
+## Tokens
+
 
 ## NFTs and Wallets
 Before minting an NFT you need to create a Wallet for the user reciving the NFT. Every wallet will be encrypted with a password known only to the company.
