@@ -16,6 +16,20 @@
 {% endswagger-response %} {% endswagger %}
 
 
+{% tabs %}
+{% tab title="Node" %}
 ```javascript
- const apiKey = await mintknight.getApiKey(projectId);
+
+const apiKey = await mintknight.getApiKey(projectId);
+
 ```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}
+

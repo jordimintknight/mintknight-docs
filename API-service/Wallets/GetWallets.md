@@ -24,3 +24,28 @@
 {% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+
+  // 6. Check Balance for Both wallets
+  let wallet = await mintknight.getWallet(wallet1.walletId);
+  console.log(wallet);
+  wallet = await mintknight.getWallet(wallet2.walletId);
+  console.log(wallet);
+  
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}
+

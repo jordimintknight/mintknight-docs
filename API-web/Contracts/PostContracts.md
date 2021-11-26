@@ -38,3 +38,27 @@
 {% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+  // 1. Add the contract to the project ERC20.
+  let task = await mintknight.deployContract(
+     20,
+     process.env.TOKEN_NAME,
+     process.env.TOKEN_SYMBOL,
+     process.env.TOKEN_DESCRIPTION,
+     minter.walletId,
+  );
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}

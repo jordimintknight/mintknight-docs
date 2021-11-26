@@ -25,3 +25,27 @@
 {% endswagger-response %} {% endswagger %}
 
 
+
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+
+  let task = await mintknight.addWallet('id_minter');
+  const minter = { walletId: task.wallet._id, skey: task.skey1 };
+  task = await mintknight.waitTask(task.taskId);
+  minter.address = task.addressTo;
+
+
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}
+
+

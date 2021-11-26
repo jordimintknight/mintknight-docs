@@ -18,3 +18,29 @@
 {% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+  // 3. Transfer 10 tokens to Wallet2.
+  task = await mintknight.transferToken(
+    project.contractId,
+    wallet1.walletId,
+    wallet1.skey,
+    wallet2.walletId,
+    '10');
+  task = await mintknight.waitTask(task.taskId);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}
+
+
+

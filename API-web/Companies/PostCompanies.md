@@ -43,3 +43,23 @@
 
 {% endswagger-response %} {% endswagger %}
 
+
+{% tabs %}
+{% tab title="Node" %}
+```javascript
+  const company = await mintknight.setCompany(
+    COMPANY_NAME,
+    COMPANY_TAXID,
+    COMPANY_ADDRESS,
+    COMPANY_COUNTRY,
+  );
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}

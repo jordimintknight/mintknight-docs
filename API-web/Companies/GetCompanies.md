@@ -40,8 +40,9 @@ To fetch all the information of a user comapny:
 {% tabs %}
 {% tab title="Node" %}
 ```
-# Install via NPM
-npm install --save my-api
+const MintknightWeb = require('mintknight-web');
+
+const companyInfo =  async MintknightWeb.getCompany(user) 
 ```
 {% endtab %}
 
@@ -53,9 +54,3 @@ pip install --upgrade myapi
 {% endtab %}
 {% endtabs %}
 
-
-```javascript
-const MintknightWeb = require('mintknight-web');
-
-const companyInfo =  async MintknightWeb.getCompany(user) 
-```
