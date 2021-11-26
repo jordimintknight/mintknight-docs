@@ -1,7 +1,7 @@
 ---
 description: 
 ---
-In this page we will start introducing you to the resources our API provides. This brief description will help conceptualize what is each resource, and what role plays in the mintknight platform.  
+In this page we will start introducing you to the resources of our API provides. This brief description will help conceptualize what is each resource, and what role plays in the mintknight platform.  
 
 ## Users and Companies
 These are the users in your company, responsible to create Projects, collections and NFTs drops.
