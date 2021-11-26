@@ -1,7 +1,7 @@
 ## Projects
 
 Projects helps you to organize your collections and NFT drops. 
-Only authentificated users can create and manage projects.
+
 
 The project object have the following structure:
 
