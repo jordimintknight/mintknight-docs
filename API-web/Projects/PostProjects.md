@@ -32,7 +32,9 @@ This action creats a new project for the user. The json key values that are requ
 {% endswagger-response %} {% endswagger %}
 
 
-```javascript
+{% tabs %}
+{% tab title="Node" %}
+```
   const MintknightWeb = require('mintknight-web');
   
   const project = await Mintknight.addProject(
@@ -41,3 +43,12 @@ This action creats a new project for the user. The json key values that are requ
     PROJECT_NETWORK
   );
 ```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}
