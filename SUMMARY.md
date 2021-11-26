@@ -18,7 +18,7 @@
 * [Contracts](API-web/Contracts/MainContracts.md)
   * [Post](API-web/Contracts/PostContracts.md)
   * [Get](API-web/Contracts/GetContract.md)
-  * [Mint](API-web/Contracts/mints.md)
+  * [Mint](API-web/Contracts/Mints.md)
   * [Put](API-web/Contracts/PutContract.md)
   
 * [Companies](API-web/Companies/MainCompanies.md)
