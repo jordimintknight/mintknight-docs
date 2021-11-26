@@ -1,6 +1,6 @@
 
 
-{% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="contracts/:contractId/mint" summary="Creats a new project" %} {% swagger-description %} Mints a new NFT. {% endswagger-description %}
+{% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="contracts/:contractId/mint" summary="Mints a new NFT" %} {% swagger-description %} Mints a new NFT. {% endswagger-description %}
 
 {% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
 
