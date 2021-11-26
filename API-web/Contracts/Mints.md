@@ -40,8 +40,8 @@
     project.contractId,
     minter.walletId,
     minter.skey,
-	  wallet1.walletId,
-	  '50',
+    wallet1.walletId,
+    '50',
   );
   task = await mintknight.waitTask(task.taskId);
 ```
