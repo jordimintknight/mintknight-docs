@@ -37,7 +37,21 @@ To fetch all the information of a user comapny:
 {% endswagger-response %} {% endswagger %}
 
 
-hiiii
+{% tabs %}
+{% tab title="Node" %}
+```
+# Install via NPM
+npm install --save my-api
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```
+# Install via pip
+pip install --upgrade myapi
+```
+{% endtab %}
+{% endtabs %}
 
 
 ```javascript
