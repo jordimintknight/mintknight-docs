@@ -50,5 +50,5 @@
 ## 🎓 QUICK RECEIPES
 * [How to set up user, company, project...](Receipes/Set_Up.md)
 * [How to create wallets](Receipes/Wallets.md)
-* [How to mint and transfer tokens](Receipes/Toquens_receipe.md)
+* [How to mint and transfer tokens](Receipes/Tokens_receipe.md)
 * [How to Mint a NFT](Receipes/NFT_receipe.md)
