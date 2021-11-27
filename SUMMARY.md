@@ -30,7 +30,7 @@
   * [Transfer](API-service/NFTS/Transfer.md)
   * [Mint](API-service/NFTS/Mints.md)
   * [Update metadata](API-service/NFTS/UpdatesMetadata.md)
-  * [Upload Nft](API-service/NFTS/UploadMetadata.md)
+  * [Upload Nft](API-service/NFTS/UploadNft.md)
   * [Get One](API-service/NFTS/GetById.md)
 
 * [Tokens](API-service/Tokens/MainTokens.md)
