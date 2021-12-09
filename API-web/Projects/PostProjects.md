@@ -6,7 +6,7 @@ This action creats a new project for the user. The json key values that are requ
 {% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="projects" summary="Creats a new project" %} {% swagger-description %} Creates a new Project. {% endswagger-description %}
 
 
-{% swagger-parameter in="Header" name="name" required="true" type="string" %} The name of the project {% endswagger-parameter %}
+{% swagger-parameter in="header" name="name" required="true" type="string" %} The name of the project {% endswagger-parameter %}
 
 
 {% swagger-parameter in="body" name="name" required="true" type="string" %} The name of the project {% endswagger-parameter %}
