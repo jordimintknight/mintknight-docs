@@ -5,6 +5,10 @@
 
 {% swagger baseUrl="https://serviceapi.mintknight.com/" method="get" path="wallets/:walletId" summary="Get one wallet and its content - nfts and tokens" %} {% swagger-description %} Get one wallet and its content - nfts and tokens. {% endswagger-description %}
 
+{% swagger-parameter in="header" name="Content-Type" required="true" type="string" %} A string indicating the media type of the resource {% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="x-api-key" required="true" type="string" %} Authentication token {% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="walletId" required="true" type="string" %} The id of the wallet {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="network" required="true" type="string" %} the network {% endswagger-parameter %}

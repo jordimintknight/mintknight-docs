@@ -3,6 +3,10 @@
 
 {% swagger baseUrl="https://serviceapi.mintknight.com/" method="post" path="wallets" summary="Deploy a new wallet" %} {% swagger-description %} Deploys a new wallet. {% endswagger-description %}
 
+{% swagger-parameter in="header" name="Content-Type" required="true" type="string" %} A string indicating the media type of the resource {% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="x-api-key" required="true" type="string" %} Authentication token {% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="companyId" required="true" type="string" %} The id of the company adding a wallet {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="owner" required="true" type="string" %} The id of the user adding a wallet {% endswagger-parameter %}
