@@ -3,6 +3,10 @@
 
 {% swagger baseUrl="https://webapi.mintknight.com/" method="PUT" path="projects/:projectId" summary="Update project" %} {% swagger-description %} fetch a project. {% endswagger-description %}
 
+{% swagger-parameter in="header" name="Content-Type" required="true" type="string" %} A string indicating the media type of the resource {% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="x-api-key" required="true" type="string" %} Authentication token {% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="name" required="true" type="string" %} The name of the project {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="description" required="true" type="string" %} The description of the Project {% endswagger-parameter %}
