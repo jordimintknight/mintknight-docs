@@ -6,10 +6,16 @@ Projects helps you to organize your collections and NFT drops.
 The project object have the following structure:
 
 ```javascript
- Data: {
-            "name": "your Project Name ", 
-            "description": "the description of the project", 
-            "network": "your network choice"
+ Project: {
+            companyId:  
+            createdAt:  
+            createdBy: 
+            description:
+            name:
+            network:
+            updatedAt: 
+            __v:
+            _id:
             
         }
 ```
