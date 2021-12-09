@@ -1,11 +1,10 @@
 ---
 description: 
 ---
-In this page we will start introducing you to the resources of our API provides. This brief description will help conceptualize what is each resource, and what role plays in the mintknight platform.  
+In this page we will start introducing you to the resources our API provides. This brief description will help conceptualize what is each resource, and what role plays in the mintknight platform.
 
 ## Users and Companies
-These are the users in your company, responsible to create Projects, collections and NFTs drops.
-A user must have an associated company. Projects belong to the user and the company.
+These are the users in your company, responsible for creating Projects, collections and NFTs drops. A user must have an associated company. Projects belong to the user and the company.
 
 Roles for users in companies:
 
@@ -19,10 +18,8 @@ WIP: You can also create an API KEY specific for minting collections
 The top level in every NFT campaigns.
 
 ## Collection
-Projects are organizaed in collections (sublevel 1). Every Collection can have many NFTs drops.
-
+Projects are organized in collections (sublevel 1). Every Collection can have many NFTs drops.
 A collection is an ERC721 or an ERC1155 Contract.
-
 Whenever a Drop is created it starts in draft mode. While in draft, it can be edited, as the NFT Contract is not yet in the Blockchain (deployed). But once it is deployed it cannot be changed anymore.
 
 ## Tokens

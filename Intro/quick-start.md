@@ -2,12 +2,12 @@
 description: 
 ---
 
-This guide will walk you trough the whole process of creating a new project and interactuing with the mintknight API.
+This guide will walk you through the whole process of creating a new project and interacting with the mintknight API.
 
 
-We do not entend to explain all the conceps related to javascript, node, or blockchain from scratch. To try our platform, you don't need to be an expert in all that fields, but basic knowladge in web development is expected. 
+We do not extend to explain all the concepts related to javascript, node, or blockchain from scratch. To try our platform, you don't need to be an expert in all those fields, but basic knowledge in web development is expected.
 
-We are trying our best for ensuring a streamless process and we aim you should be able to start developing your d'Apps in a record time. 
+We are trying our best to ensure a seamless process and we aim you should be able to start developing your d'Apps in a record time.
 
 
 1. Setting up your environment
