@@ -2,6 +2,10 @@
 
 {% swagger baseUrl="https://webapi.mintknight.com/" method="post" path="companies/" summary="Add a new Company." %} {% swagger-description %} Add a new Company. {% endswagger-description %}
 
+{% swagger-parameter in="header" name="Content-Type" required="true" type="string" %} A string indicating the media type of the resource {% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="x-api-key" required="true" type="string" %} Authentication token {% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="token" required="true" type="string" %} The bearer token that authentificates a user {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="name" required="true" type="string" %} The name of the company {% endswagger-parameter %}

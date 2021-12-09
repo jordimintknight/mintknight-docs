@@ -3,6 +3,10 @@
 
 {% swagger baseUrl="https://api.mintknight.com/" method="POST" path="nfts/mint" summary="Mint a NFT" %} {% swagger-description %} Mint a NFT {% endswagger-description %}
 
+{% swagger-parameter in="header" name="Content-Type" required="true" type="string" %} A string indicating the media type of the resource {% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="x-api-key" required="true" type="string" %} Authentication token {% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="walletId" required="true" type="string" %} The wallet id to transfer the NFT {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="metadata" required="true" type="string" %} The .... {% endswagger-parameter %}
