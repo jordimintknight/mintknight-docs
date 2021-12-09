@@ -1,6 +1,10 @@
 
 {% swagger baseUrl="https://webapi.mintknight.com/" method="POST" path="contracts" summary="Creates a new contract" %} {% swagger-description %} Creates a new Contract. {% endswagger-description %}
 
+{% swagger-parameter in="header" name="Content-Type" required="true" type="string" %} A string indicating the media type of the resource {% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="x-api-key" required="true" type="string" %} Authentication token {% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="name" required="true" type="string" %} The name of the contract {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="symbol" required="false" type="string" %} The Symbol of the Contract {% endswagger-parameter %}
