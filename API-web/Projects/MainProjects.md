@@ -2,6 +2,7 @@
 
 Projects helps you to organize your collections and NFT drops. 
 
+Free users, only have acces to one project.
 
 The project object have the following structure:
 
