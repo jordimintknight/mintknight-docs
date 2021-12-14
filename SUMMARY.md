@@ -46,6 +46,8 @@
 * [Tasks](API-service/Tasks/MainTasks.md)
    * [Get](API-service/Tasks/GetTasks.md)  
 
+* [Emails](API-service/Mails/MainMails.md)
+   * [Post](API-service/Mails/PostMail.md)  
 
 ## 🎓 QUICK RECEIPES
 * [How to set up user, company, project...](Receipes/Set_Up.md)
