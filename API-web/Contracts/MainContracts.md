@@ -13,7 +13,7 @@ In this level, you decide what type of contract are you gonna use for the drops 
       maxSupply,
       adress,
       *campaignId,
-      walletId
+      *walletId
     };
 
     const project = await Mintknight.deployContract(contract);
