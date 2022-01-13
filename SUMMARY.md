@@ -33,6 +33,10 @@
   * [Upload Nft](API-service/NFTS/UploadNft.md)
   * [Get One](API-service/NFTS/GetOne.md)
 
+* [Drops](API-service/Drops/MainDrops.md)
+  * [Add drop](API-service/Drops/AddDrops.md)
+  * [Get code](API-service/Drops/GetCode.md)
+
 * [Tokens](API-service/Tokens/MainTokens.md)
   * [Mint](API-service/Tokens/MintsToken.md)
   * [Get](API-service/Tokens/GetToken.md)
