@@ -4,15 +4,7 @@ description:
 
 ## What is Mintknight?
 
-Mintknight is a backend solution for blockchain projects. When using the Mintknight platform you can create and manage users, projects, drops, wallets and NFT. Mintknight also provides an SDK with access to all our features.
+Mintknight is a service that enables businesses and individuals in the blockchain space. We strive to make NFT issuance, transfer, and essentially its management transparent to anyone along with the tokenization of the assets and it’s tokenomics. You will find in Mintknight a partner to hold hands with you in the blockchain space without having to be a developer, programmer or blockchain geek.
 
 ## Why use Mintknight?
-Mintrknight allows the creation, building and deploying of dAPPS on different chains like Etherum, Polygon, ...and more to come.
-
-```javascript
-
-whats about cross-chain platform? can we say that we are ?? so if a new chain appears we could easily transfer to a new chain
- 
-```
-
-Mintknight helps you build, maintain and improve your blockchain project. No projects are too big or two small for our platform. We offer different tiers to Users based on their needs.
+We have extensive blockchain experience and we are geared toward helping regular businesses and individuals to “uncomplicate” the blockchain experience. We will only ask business-oriented questions and we’ll provide the geeky techie answers to help implement your solution. You’ll have a web interface that will give you the confidence to issue, transfer, and manage NFTs or blockchain assets seamlessly.
