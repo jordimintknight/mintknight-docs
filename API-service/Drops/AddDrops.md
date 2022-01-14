@@ -8,11 +8,25 @@
 
 {% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
-{% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
-{% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
-{% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
-{% swagger-parameter in="body" name="name" required="true" type="string" %}  {% endswagger-parameter %}
+{% swagger-parameter in="body" name="contractId" required="true" type="string" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="dropType" required="true" type="string" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="totalNfts" required="true" type="number" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="maxNfts" required="true" type="number" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="totalYield" required="true" type="number" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="price" required="true" type="string" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="imgBefore" required="true" type="string" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="imgAfter" required="true" type="string" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="walletId" required="true" type="string" %}  {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="skey" required="true" type="string" %}  {% endswagger-parameter %}
 
 
 
