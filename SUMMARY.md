@@ -8,6 +8,10 @@
 
 ## 🎓 Reference
 
+* [Companies](API-web/Companies/MainCompanies.md)
+  * [Post](API-web/Companies/PostCompanies.md)
+  * [Get](API-web/Companies/GetCompanies.md)
+
 * [Projects](API-web/Projects/MainProjects.md)
   * [Post](API-web/Projects/PostProjects.md)
   * [Get all](API-web/Projects/GetProjects.md)
@@ -21,10 +25,6 @@
   * [Mint](API-web/Contracts/Mints.md)
   * [Put](API-web/Contracts/PutContract.md)
   
-* [Companies](API-web/Companies/MainCompanies.md)
-  * [Post](API-web/Companies/PostCompanies.md)
-  * [Get](API-web/Companies/GetCompanies.md)
-
 * [NFTS](API-service/NFTS/MainNfts.md)
   * [Get by Id](API-service/NFTS/GetById.md)
   * [Transfer](API-service/NFTS/Transfer.md)
