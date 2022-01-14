@@ -29,8 +29,20 @@
 {% swagger-parameter in="body" name="skey" required="true" type="string" %}  {% endswagger-parameter %}
 
 
-{% swagger-response status="401" description="Invalid authentication %}
 
-{% swagger-response status="200" description="Drop created" %}
+
+
+
+{% swagger-response status="200" description="Project successfully created" %}
+
+
+{% endswagger-response %}
+
+{% swagger-response status="401" description="Permission denied" %}
 
 {% endswagger-response %} {% endswagger %}
+
+
+
+
+
