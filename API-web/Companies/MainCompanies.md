@@ -5,6 +5,8 @@ Only Authorized Users, can add / edit / fetch the information of their company:
 
 Companies have the following fields:  
 
+```javascript
+ Companies: {
   name: 
   taxId: 
   address: 
@@ -24,7 +26,8 @@ Companies have the following fields:
   uploadUsed:  
   transfersAvailable:  
   transfersUsed: 
-
+        }
+```
 
 
 the required fields to create a company are the folloing fields:
