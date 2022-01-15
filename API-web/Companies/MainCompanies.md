@@ -1,8 +1,6 @@
 
 Companies are entities linked to users. Each user can have up to one company. 
-
-Only Authorized Users, can add / edit / fetch the information of their company:
-
+Only Authorized Users, can add / edit / fetch the information of their company.
 Companies have the following fields:  
 
 ```javascript
