@@ -7,26 +7,26 @@ Companies have the following fields:
 
 ```javascript
  Companies: {
-  name: 
-  taxId: 
-  address: 
-  country: 
-  createdAt:
-  updatedAt: 
-  model: { 'free', 'basic', 'company', 'agency'  },
-  projectsAvailable: 
-  projectsUsed: 
-  contractsAvailable: 
-  contractsUsed: 
-  walletsAvailable: 
-  walletsUsed:  
-  mintsAvailable:  
-  mintsUsed:  
-  uploadsAvailable:  
-  uploadUsed:  
-  transfersAvailable:  
-  transfersUsed: 
-        }
+            name: 
+            taxId: 
+            address: 
+            country: 
+            createdAt:
+            updatedAt: 
+            model: { 'free', 'basic', 'company', 'agency'  },
+            projectsAvailable: 
+            projectsUsed: 
+            contractsAvailable: 
+            contractsUsed: 
+            walletsAvailable: 
+            walletsUsed:  
+            mintsAvailable:  
+            mintsUsed:  
+            uploadsAvailable:  
+            uploadUsed:  
+            transfersAvailable:  
+            transfersUsed: 
+}
 ```
 
 
