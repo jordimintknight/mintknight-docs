@@ -6,15 +6,13 @@
 
 {% swagger-parameter in="header" name="x-api-key" required="true" type="string" %} Authentication token {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="token" required="true" type="string" %} The bearer token that authentificates a user {% endswagger-parameter %}
-
 {% swagger-parameter in="body" name="name" required="true" type="string" %} The name of the company {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="taxId" required="true" type="string" %} The Tax Id of the company {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="adress" required="true" type="string" %} The adress of the company {% endswagger-parameter %}
+{% swagger-parameter in="body" name="adress" type="string" %} The adress of the company {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="country" required="true" type="string" %} The Country of the company {% endswagger-parameter %}
+{% swagger-parameter in="body" name="country" type="string" %} The Country of the company {% endswagger-parameter %}
 
 
 {% swagger-response status="200" description="Campaign successfully created" %}
