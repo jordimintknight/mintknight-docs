@@ -6,7 +6,7 @@ The required fields to create a company are the folloing fields:
 name: 
 taxId:  
 
-Free users, can create up to: 
+Free users, can create up to:   
 3 projects  
 10 contracts  
 100 wallets  
