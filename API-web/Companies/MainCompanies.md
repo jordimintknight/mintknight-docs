@@ -1,6 +1,19 @@
 
 Companies are entities linked to users. Each user can have up to one company. 
 Only Authorized Users, can add / edit / fetch the information of their company.
+
+The required fields to create a company are the folloing fields:
+name: 
+taxId:  
+
+Free users, can create up to: 
+3 projects  
+10 contracts  
+100 wallets  
+100 mints  
+10 uploads  
+1 transfer  
+
 Companies have the following fields:  
 
 ```javascript
@@ -28,14 +41,4 @@ Companies have the following fields:
 ```
 
 
-the required fields to create a company are the folloing fields:
-name: 
-taxId:
 
-Free users, can create up to: 
-3 projects
-10 contracts
-100 wallets
-100 mints
-10 uploads
-1 transfer
