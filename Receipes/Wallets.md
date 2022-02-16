@@ -1,3 +1,7 @@
+
+before we can create a wallet, a company info and a project had been 
+
+
 ```javascript
 
 
